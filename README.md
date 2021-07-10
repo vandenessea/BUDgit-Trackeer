@@ -7,6 +7,7 @@ The user is able to add expenses and deposits to their budget with or without a 
 
 * We added in a service worker file, and manifest.json file. The service worker file is essentially a JavaScript file that runs separately from the main browser thread, intercepting network requests, caching or retrieving resources from the cache, and delivering push messages.
 * The manifest.json file provides information about an application (such as name, author, icon, and description) in a JSON text file. The purpose of the manifest is to install web applications to the homescreen of a device, providing users with quicker access and a richer experience.
+* In service worker.js we cached all the files in the public folder.
 
 ## Business Context
 
